@@ -35,7 +35,7 @@ Amrhein, Valentin, Sander Greenland, and Blake McShane. 2019.
 
 </div>
 
-<div id="ref-Andringa2020SamplingBias" class="csl-entry">
+<div id="ref-andringa-2020" class="csl-entry">
 
 Andringa, Sible, and Aline Godfroid. 2020. “Sampling Bias and the
 Problem of Generalizability in Applied Linguistics.” *Annual Review of
@@ -99,7 +99,7 @@ Linguistics.” *Linguistics* 59 (5): 1343–56.
 
 </div>
 
-<div id="ref-Henrich2010WEIRD" class="csl-entry">
+<div id="ref-henrich-2010" class="csl-entry">
 
 Henrich, Joseph, Steven J. Heine, and Ara Norenzayan. 2010. “The
 Weirdest People in the World?” *Behavioral and Brain Sciences* 33 (2-3):
@@ -194,6 +194,13 @@ Nuzzo, Regina. 2014. “Scientific Method: Statistical Errors.” *Nature*
 
 </div>
 
+<div id="ref-olson-2024" class="csl-entry">
+
+Olson, Daniel J. 2024. “Bilingual Language Dominance and Code-Switching
+Patterns.” *Heritage Language Journal* 21 (1): 1–29.
+
+</div>
+
 <div id="ref-ortega-2005" class="csl-entry">
 
 Ortega, Lourdes, and Gina Iberri-Shea. 2005. “Longitudinal Research in
@@ -201,6 +208,16 @@ Second Language Acquisition: Recent Trends and Future Directions.”
 *Annual Review of Applied Linguistics* 25: 26–45.
 [https://doi.org/10.1017/S0267190505000024
 ](https://doi.org/10.1017/S0267190505000024 ).
+
+</div>
+
+<div id="ref-park_Solon_Lee-2025" class="csl-entry">
+
+Park, Hae In, Megan Solon, and Kwangmin Lee. 2025. “Understanding
+Proficiency Assessment Practices in SLA Research: Insights from
+Researcher Beliefs and Practices.” *Studies in Second Language
+Acquisition* 47 (5): 1205–29.
+<https://doi.org/10.1017/S0272263125101058>.
 
 </div>
 
@@ -261,7 +278,7 @@ Papers.” *Perspectives on Psychological Science* 12 (6): 1123–28.
 
 </div>
 
-<div id="ref-Sugden2015Recruitment" class="csl-entry">
+<div id="ref-sugden-2015" class="csl-entry">
 
 Sugden, Nicholas A., and Margaret C. Moulson. 2015. “Recruitment
 Strategies Should Not Be Randomly Selected.” *Frontiers in Psychology*
