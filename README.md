@@ -1,6 +1,6 @@
 # Forking Paths, Open Doors references
 Joseph V. Casillas
-2026-11-06
+2026-11-17
 
 ## Citation Types
 
@@ -24,8 +24,16 @@ style="width:100.0%" />
 
 # Reference list
 
-<div id="refs" class="references csl-bib-body hanging-indent"
-entry-spacing="0">
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-alhoorie_hiver_innami-2024" class="csl-entry">
+
+Al-Hoorie, Ali H., Phil Hiver, and Yo In’nami. 2024. “The Validation
+Crisis in the L2 Motivational Self System Tradition.” *Studies in Second
+Language Acquisition* 46 (2): 307–29.
+<https://doi.org/10.1017/S0272263123000487>.
+
+</div>
 
 <div id="ref-Amrhein2019RiseUp" class="csl-entry">
 
@@ -44,13 +52,12 @@ Applied Linguistics* 40: 134–42.
 
 </div>
 
-<div id="ref-Coretta2023Multidimensional" class="csl-entry">
+<div id="ref-coretta_etal-2023" class="csl-entry">
 
-Coretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B.
-Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional
-Signals and Analytic Flexibility: Estimating Degrees of Freedom in
-Human-Speech Analyses.” *Advances in Methods and Practices in
-Psychological Science* 6 (3): 25152459231162567.
+Coretta, Stefano, Joseph V. Casillas, Simone Roessig, et al. 2023.
+“Multidimensional Signals and Analytic Flexibility: Estimating Degrees
+of Freedom in Human-Speech Analyses.” *Advances in Methods and Practices
+in Psychological Science* 6 (3): 25152459231162567.
 <https://doi.org/10.1177/25152459231162567>.
 
 </div>
@@ -107,11 +114,21 @@ Weirdest People in the World?” *Behavioral and Brain Sciences* 33 (2-3):
 
 </div>
 
+<div id="ref-huensch_nagle-2023" class="csl-entry">
+
+Huensch, Amanda, and Charlie Nagle. 2023. “Revisiting the Moderating
+Effect of Speaker Proficiency on the Relationships Among
+Intelligibility, Comprehensibility, and Accentedness in L2 Spanish.”
+*Studies in Second Language Acquisition* 45 (2): 571–85.
+<https://doi.org/10.1017/S0272263122000213>.
+
+</div>
+
 <div id="ref-Marsden2023OpenResearchFuture" class="csl-entry">
 
 Marsden, Emma, and Kara Morgan-Short. 2023. “(Why) Are Open Research
 Practices the Future for the Study of Language Learning?” *Language
-Learning*. <https://doi.org/10.1111/lang.12568>.
+Learning*, ahead of print. <https://doi.org/10.1111/lang.12568>.
 
 </div>
 
@@ -134,6 +151,16 @@ Applied Psychology.” *Journal of Applied Psychology* 110 (11): 1511–37.
 
 </div>
 
+<div id="ref-mcclelland-2025" class="csl-entry">
+
+McClelland, Neil, and Jenifer Larson-Hall. 2025. “Why You Should Stop
+Using the Ideal L2 Self and the L2 Motivational Self-System to Measure
+Motivation (Reaction to Al-Hoorie, Hiver & in’nami, 2024).” *Studies in
+Second Language Acquisition* 47 (4): 1121–32.
+<https://doi.org/10.1017/S0272263124000779>.
+
+</div>
+
 <div id="ref-McMurray2023Functionalist" class="csl-entry">
 
 McMurray, Bob, Karen S. Baxelbaum, Susan Colby, and J. Bruce Tomblin.
@@ -153,11 +180,9 @@ Language Acquisition Research.” *Language Learning* 71 (1): 204–42.
 
 <div id="ref-MorganShort2018MultisiteReplication" class="csl-entry">
 
-Morgan-Short, Kara, Emma Marsden, Jeanne Heil, B. I. Issa, Ronald P.
-Leow, Anna Mikhaylova, S. Mikołajczak, Noelia Moreno, Roumyana
-Slabakova, and Pawel Szudarski. 2018. “Multisite Replication in Second
-Language Acquisition Research.” *Language Learning* 68 (2): 392–437.
-<https://doi.org/10.1111/lang.12292>.
+Morgan-Short, Kara, Emma Marsden, Jeanne Heil, et al. 2018. “Multisite
+Replication in Second Language Acquisition Research.” *Language
+Learning* 68 (2): 392–437. <https://doi.org/10.1111/lang.12292>.
 
 </div>
 
@@ -170,7 +195,7 @@ Considerations.” *Research Methods in Applied Linguistics* 2 (1):
 
 </div>
 
-<div id="ref-Norouzian2018Bayesian" class="csl-entry">
+<div id="ref-norouzian-2018" class="csl-entry">
 
 Norouzian, Ramin, M. de Miranda, and Luke Plonsky. 2018. “The Bayesian
 Revolution in Second Language Research.” *Language Learning* 68 (4):
@@ -232,7 +257,7 @@ Language Research*. Routledge.
 
 Plonsky, Luke, Sam Sterling, Kevin Yaw, T. Larsson, and Merja Kytö.
 2025. “Expanding the Scope of Questionable Research Practices in Applied
-Linguistics.” *Journal of Second Language Studies*.
+Linguistics.” *Journal of Second Language Studies*, ahead of print.
 <https://doi.org/10.1075/jsls.00060.plo>.
 
 </div>
