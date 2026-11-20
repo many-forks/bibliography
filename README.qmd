@@ -3,14 +3,21 @@ title: "Forking Paths, Open Doors references"
 format: gfm
 author: Joseph V. Casillas
 date: today
-bibliography: bibliography.bib
-nocite: |
-  @*
+filters:
+  - citetools
+
+bibliography_ch1: ch1.bib
+bibliography_ch2: ch2.bib
+bibliography_ch3: ch3.bib
+bibliography_ch4: ch4.bib
+bibliography_ch5: ch5.bib
+bibliography_ch6: ch6.bib
 ---
 
 ```{r}
 #| label: setup
 #| include: false
+#| eval: false
 
 knitr::opts_chunk$set(
   echo = FALSE, 
@@ -51,28 +58,43 @@ my_theme <- function(base_size = 12) {
 #| label: load-data
 #| warning: false
 #| message: false
+#| eval: false
 
-# Load bib file
-bib <- suppressWarnings(ReadBib("bibliography.bib", check = FALSE))
+# Load bib files
+bib1 <- suppressWarnings(ReadBib("ch1.bib", check = FALSE))
+bib2 <- suppressWarnings(ReadBib("ch2.bib", check = FALSE))
+bib3 <- suppressWarnings(ReadBib("ch3.bib", check = FALSE))
+bib4 <- suppressWarnings(ReadBib("ch4.bib", check = FALSE))
+bib5 <- suppressWarnings(ReadBib("ch5.bib", check = FALSE))
+bib6 <- suppressWarnings(ReadBib("ch6.bib", check = FALSE))
+
+bib <- c(bib1, bib2, bib3, bib4, bib5, bib6)
 
 # Create csv of citekeys
-cite_key_list <- bind_cols(
-  bib$key |> unlist() |> tibble::enframe(name = NULL), 
-  bib$bibtype |> unlist() |> tibble::enframe(name = NULL), 
-  bib$year |> unlist() |> tibble::enframe(name = NULL)
+cite_key_list_ch1 <- bind_cols(
+  bib1$key |> unlist() |> tibble::enframe(name = NULL), 
+  bib1$bibtype |> unlist() |> tibble::enframe(name = NULL), 
+  bib1$year |> unlist() |> tibble::enframe(name = NULL)
   ) |> 
   rename(citekey = value...1, type = value...2, year = value...3) |> 
-  write_csv(here("cite_key_list.csv"))
+  write_csv(here("cite_key_list_ch1.csv"))
 
 # Set bib options for printing
 BibOptions(bib.style = "authoryear", style = "text", max.names = 10, 
            first.inits = TRUE, check.entries = FALSE)
 
 # Convert to dataframe for analyses
-dat <- bib |> 
-  as_tibble() |> 
+dat <- bind_rows(
+  as_tibble(bib1) |> mutate(ch = "ch1"), 
+  as_tibble(bib2) |> mutate(ch = "ch2"), 
+  as_tibble(bib3) |> mutate(ch = "ch3"), 
+  as_tibble(bib4) |> mutate(ch = "ch4"), 
+  as_tibble(bib5) |> mutate(ch = "ch5"), 
+  as_tibble(bib6) |> mutate(ch = "ch6")
+  ) |> 
   purrr::map_df(.f = textutils::HTMLdecode) |> 
-  mutate(year = as.numeric(year))
+  mutate(year = as.numeric(year)) |> 
+  distinct()
 ```
 
 
@@ -82,11 +104,11 @@ dat <- bib |>
 ```{r}
 #| label: bibtype
 #| echo: false
+#| eval: false
 
 counts <-  dat |> 
   group_by(bibtype) |> 
   count()
-
 
 counts |> 
   mutate(bibtype = fct_reorder(bibtype, n)) |> 
@@ -106,7 +128,7 @@ counts |>
 #| label: journal 
 #| fig-height: 17
 #| fig-asp: 1
-
+#| eval: false
 
 datj <- dat |> 
   group_by(bibtype) |> 
@@ -134,7 +156,8 @@ dat |>
 #| label: authors
 #| fig-asp: 1
 #| fig-height: 30
-
+#| eval: false
+#| 
 # Initialize list
 authors <- list()
 
@@ -167,6 +190,7 @@ purrr::map(authors, textutils::HTMLdecode) |>
 
 ```{r}
 #| label: year
+#| eval: false
 
 prod <- dat |> 
   select(year) |> 
@@ -192,8 +216,9 @@ prod |>
 ```
 
 
+
+
 # Reference list
 
-::: {#refs}
+::: {#refs_ch1}
 :::
-
